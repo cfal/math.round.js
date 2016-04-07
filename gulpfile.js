@@ -7,4 +7,3 @@ gulp.task('default', function(done) {
         .pipe(gulp.dest('dist'))
         .on('end', done);
 });
-
